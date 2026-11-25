@@ -1,0 +1,22 @@
+[
+    {
+        "id": "b85e643c7e2e5d56",
+        "type": "function",
+        "z": "7d4b68231e235b89",
+        "name": "Ambil Nilai Suhu",
+        "func": "msg.payload = Number(msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 160,
+        "wires": [
+            [
+                "d9473d2d55b85c3c"
+            ]
+        ]
+    }
+]
